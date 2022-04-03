@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+#LeftHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background-color: #576992;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    width: 30rem;
+    border-bottom-right-radius: 12rem;
+}
+
+#LeftHeader svg {
+    width: 8rem;
+    height: 8rem;
+}
+
+#LeftHeader {
+    display: flex;
+    align-items: center;
+}
+
+#LeftHeader p {
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+#RightHeader {
+    position: absolute;
+    width: 30rem;
+    background-color: #576992;
+    right: 0;
+}
+
+#RightHeader p {
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    width: 100%;
+    border-bottom-left-radius: 12rem;
+}
